@@ -56,3 +56,7 @@ let embedOption = makeEmbedOption(~q=`문정동`, ~autoClose=true)
 let div = Dom.document |> Dom.Document.getElementById("search-address")
 div->Belt.Option.map(el => daumPostCode->embedPostCode(el, embedOption))->ignore
 ```
+
+## API
+
+[다음 주소 검색 API](https://postcode.map.daum.net/guide#attributes)
