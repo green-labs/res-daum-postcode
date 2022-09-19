@@ -73,6 +73,7 @@ external makeOption: (
   ~alwaysShowEngAddr: bool=?,
   ~useBannerLink: bool=?,
   ~theme: {..}=?,
+  ~submitMode: bool=?,
   unit,
 ) => option = ""
 
