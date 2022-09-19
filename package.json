@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "description": "ReScript binding to Daum Postcode",
   "scripts": {
-    "re:watch": "rescript build -w",
-    "re:build": "rescript",
-    "re:clean": "rescript clean"
+    "res:watch": "rescript build -w",
+    "res:build": "rescript",
+    "res:clean": "rescript clean"
   },
   "repository": {
     "type": "git",
