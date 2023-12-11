@@ -1,0 +1,19 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+devDependencies:
+  rescript:
+    specifier: 11.0.0-rc.7
+    version: 11.0.0-rc.7
+
+packages:
+
+  /rescript@11.0.0-rc.7:
+    resolution: {integrity: sha512-N2ImQVkzF4rzV5PBcQ8htKe4NPnqsS2DhtG9A4iic4eYsNim1Ixt8qyuD40WEYl4AZOuYUaEfJlvLTOV9wHogA==}
+    engines: {node: '>=10'}
+    hasBin: true
+    requiresBuild: true
+    dev: true
